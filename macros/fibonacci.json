@@ -1,0 +1,18 @@
+{
+    "registradores": {
+        "n": 5,
+        "fib1": 0,
+        "fib2": 1,
+        "temp": 0,
+        "count": 3
+    },
+    "programa": {
+        "1": "if_zero(count) goto 7",
+        "2": "add(count)",
+        "3": "sub(n)",
+        "4": "if_zero(n) goto 6",
+        "5": "add(fib1)",
+        "6": "sub(fib2)",
+        "7": "end"
+    }
+}

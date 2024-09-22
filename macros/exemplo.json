@@ -1,0 +1,14 @@
+{
+    "registradores": {
+        "a": 5,
+        "b": 3,
+        "result": 0
+    },
+    "programa": {
+        "1": "if_zero(a) goto 5",
+        "2": "add(result)",
+        "3": "sub(a)",
+        "4": "goto 1",
+        "5": "end"
+    }
+}

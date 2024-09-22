@@ -1,0 +1,15 @@
+{
+    "registradores": {
+        "a": 3,    
+        "b": 4,    
+        "result": 0 
+    },
+    "programa": {
+        "1": "if(a) goto 2 else goto 6", 
+        "2": "add(result)",              
+        "3": "sub(a)",                   
+        "4": "if(a) goto 2 else goto 6", 
+        "5": "goto 1",                   
+        "6": "end"                       
+    }
+}

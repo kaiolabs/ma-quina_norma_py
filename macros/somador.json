@@ -1,0 +1,13 @@
+{
+    "registradores": {
+        "counter": 0
+    },
+    "programa": {
+        "1": "if(counter) goto 2 else goto 5",
+        "2": "inc(counter)",
+        "3": "if(counter) goto 4 else goto 9",
+        "4": "goto 1",
+        "5": "count(counter, 20)",
+        "9": "end"
+    }
+}

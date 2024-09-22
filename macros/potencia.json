@@ -1,0 +1,18 @@
+{
+    "registradores": {
+        "base": 2,
+        "exp": 3,
+        "result": 1,
+        "temp": 0
+    },
+    "programa": {
+        "1": "if_zero(exp) goto 8", 
+        "2": "if_zero(base) goto 5",
+        "3": "add(temp)",           
+        "4": "sub(base)",           
+        "5": "add(result)",         
+        "6": "sub(exp)",            
+        "7": "goto 1",              
+        "8": "end"                  
+    }
+}
